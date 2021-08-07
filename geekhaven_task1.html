@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Form</title>
+
+<header> 
+    <a href="www.iiita.ac.in">Home</a> | <a href="www.iiita.ac.in">Contact</a> | <a href="www.iiita.ac.in">About</a> | <a href="www.iiita.ac.in">Projects</a> 
+</header>
+
+
+<body>
+
+    <h1> <strong> Student Registration Form </strong> </h1>
+    <form>
+        <label for="first"> First Name: </label>
+        <br>
+        <input type="text" id="first" name="first" required>
+        <br><br>
+        <label for="second"> Last Name: </label>
+        <br>
+        <input type="text" id="second" name="second" required>
+        <br><br>
+        <label for="dob">DOB: </label>
+        <br>
+        <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy" required>
+        <br><br>
+        <label for="father">Father's Name:</label>
+        <br>
+        <input type="text" id="father" name="father">
+        <br><br>
+
+        <p>Document:</p>
+        <input type="radio" name="doc" value="Adhaar" id="option1">
+        <label for="option1"> Aadhar </label>
+        <br>
+        <input type="radio" name="dl" value="Driving License" id="option2">
+        <label for="option2"> Driving License </label>
+        <br>
+        <input type="radio" name="other" value="other" id="option3">
+        <label for="option1"> Other </label>
+        
+
+        <br><br>
+        <label for="">Gender:</label>
+        <select name="question" id="question">
+            <option value="Q1">Male</option>
+            <option value="Q2">Female</option>
+            <option value="Q3">Other</option>
+        </select>
+        <br><br>
+
+        <label for="secans">Description:</label> <br>
+        <input type="text" id="secans" name="secans">
+        <br> <br>
+        
+        <input type="checkbox" name="Confirm" id="Confirm">
+        <label for="confirm">Confirm</label>
+        <br> <br>
+        <input type="submit" value="Submit the form">
+    </form>
+
+</body>
+<br> <br> <br>
+<footer>Made by Anurag Dubey</footer>
+
+</html>
